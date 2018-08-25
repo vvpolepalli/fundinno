@@ -1,7 +1,0 @@
-<div class="chooseBtnPane">
-                          <input type="file" id="intro_vid_upload" name="intro_vid_upload" />
-                      </div>
-                      
-<div class="chooseBtnPane">
-                        <input type="file" id="pro_img_upload" name="pro_img_upload" />
-                      </div>
