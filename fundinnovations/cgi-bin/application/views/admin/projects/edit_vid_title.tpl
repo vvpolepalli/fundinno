@@ -1,0 +1,1 @@
+<input type="text" style="" class="textbox" id="vid_caption_pop" name="vid_caption_pop" value="{$vid_caption}">

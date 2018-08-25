@@ -1,0 +1,712 @@
+@charset "utf-8";
+/* Form  Css
+=================================================================================================================================================================*/
+.form_listing {
+	padding:0 0 10px 0;
+	font:400 13px "segoe UI", "Trebuchet MS", Tahoma
+}
+.form_listing ul {
+	padding:2px 0 10px 0;
+	margin:0;
+}
+.form_listing li {
+	padding:8px 5px;
+}
+.form_listing li.shade01 {
+	background:#F5F5F5;
+}
+.form_listing li.last-child {
+	background:#fefefe!important;
+}
+.full_width .form_listing li .leftside01 {
+	width:25%!important;
+}
+.full_width .form_listing li .rightside01 {
+	width:73%!important;
+}
+.form_listing li .leftside01 {
+	width:30%;
+	float:left;
+	text-align:right;
+	padding-top:2px;
+}
+.form_listing li .mandatory {
+	font-weight:600;
+}
+.content_container_content .form_listing li .leftside01 {
+	width:30%;
+	float:left;
+	text-align:left;
+}
+.form_listing li .leftside01 span {
+	font-size:11px;
+	color:#666;
+	display:block;
+}
+.form_listing li .rightside01 {
+	width:68%;
+	float:right;
+}
+.form_listing li .rightside01 .captcha {
+	vertical-align:middle;
+}
+.form_listing li .rightside01 li {
+	float:left;
+	padding:2px 10px 0 0;
+	font-size:12px;
+	color:#666;
+}
+.form_listing_01 {
+	border:1px solid #e1e0e0;
+	background:#f2f2f2;
+	padding:7px;
+	font:400 12px "Segoe UI", "Myriad Pro", "Trebuchet MS", Tahoma;
+}
+.form_listing_01 li {
+	padding:4px 5px;
+}
+.form_listing_01 li .leftside02 {
+	width:30%;
+	float:left;
+	text-align:left;
+	font-size:12px;
+	padding-left:4px;
+}
+.form_listing_01 li .rightside02 {
+	width:68%;
+	float:right;
+	font-size:12px;
+	color:#666666;
+	line-height:18px;
+}
+.form_listing_01 li .rightside02 strong {
+	font-size:14px;
+}
+.name-block img, .leftside img {
+	float:none;
+	margin:0;
+	vertical-align:middle;
+}
+.name-block span, .leftside span.font_group4, .leftside span.font_group5 {
+	background:#4a8801;
+	font-size:11px;
+	font-weight:400;
+	color:#fff;
+	display:inline-block;
+	vertical-align:middle;
+	line-height:15px;
+	padding:0 5px;
+	height:16px;
+}
+.form_listing_01 li.shade01 {
+	background:#F5F5F5;
+}
+/* Textbox  Style
+=================================================================================================================================================================*/
+input.textbox {
+	/*background:#FEFEFE;*/
+	background:url(../../images/admin/input_bg/search_txt_bx_rep_bg.gif) left top repeat-x #fff;
+	border:#9F9F9F 1px solid;
+	padding:2px;
+	height:20px;
+	font-size:13px;
+	margin-bottom:5px;
+	width: 90%;
+	border: 1px solid #ccc;
+padding: 3px;
+	
+	
+}
+input.textbox3 {
+	background:#FEFEFE;
+	border:#9F9F9F 1px solid;
+	padding:2px;
+	margin:2px 5px 0 0;
+	height:23px;
+	font-size:13px;
+	float:left;
+}
+.disabled {
+	background:#EBEBE4!important;
+	border:#CECECC 1px solid!important;
+}
+.form_listing li input.textbox {
+	width:223px;
+}
+.form_listing li input.date_picker_field {
+	background:url(../../images/admin/input_bg/date_picker_txt_b.gif) left top repeat-y;
+	height:23px;
+	padding:3px 0 0 5px;
+	width:224px;
+	border:0;
+}
+input.textbox2 {
+	width:125px;
+	height:15px;
+	background:url(../../images/admin/input_bg/text_boxbg.gif) left top repeat-x;
+	border:#d5d5d5 1px solid;
+	padding:1px 2px 3px 10px;
+	margin-left:10px;
+	font-size:13px;
+}
+.search_container .inner .textfield_inner input {
+	background:transparent;
+	border:none;
+	width:99%;
+	height:22px;
+	margin-bottom:5px;
+}
+.search_container .inner .textfield .date_picker_field input {
+	background:url(../../images/admin/input_bg/date_picker.gif) left top no-repeat;
+	font-size:11px;
+	color:#454545;
+	padding:3px 25px 0 5px;
+	width:75px;
+	height:18px;
+	border:0;
+}
+.checkbox01 {
+	margin-top:3px;
+}
+.length0_50pers {
+	width:50%!important;
+}
+.length0_80pers {
+	width:80%!important;
+}
+.length0_50px {
+	width:70px!important;
+}
+.length_106 {
+	width:106px!important;
+}
+.length_223 {
+	width:223px!important;
+}
+/* Selectbox  Style
+=================================================================================================================================================================*/
+select {
+	background:url(../../images/admin/input_bg/search_txt_bx_rep_bg.gif) left top repeat-x #fff;
+	/*background:#FEFEFE;*/border:#9F9F9F 1px solid;
+	padding:2px;
+	width:228px;
+	font:400 13px "segoe UI", "Trebuchet MS", Tahoma;
+	height:26px;
+	outline: none;
+	margin-bottom:5px;
+	
+}
+select.styletxt40perc{width:auto !important;}
+select.multiple
+{	height:78px;
+}
+.table_listing table td select {
+	width:90%;
+	border: 1px solid #ccc;
+	padding: 3px;height: 31px;
+}
+.table_listing table td select.style01 {
+	border:#a9a9a9 1px solid;
+	background:#fdfdfd;
+	height:22px;
+	width:110px;
+	padding:0 0 0 2px;
+	font-size:12px;
+	vertical-align:middle;
+}
+.content_container .dashboard .heading_style .fixing_right select {
+	width:150px;
+	height:28px;
+}
+.search_container .inner .textfield_inner select {
+	background:transparent;
+	border:none;
+	width:97%;
+	font-size:14px;
+	height:22px;
+	padding:0 1px 1px 5px;
+	margin-bottom:0;
+}
+* + html .search_container .inner .textfield_inner select {
+	padding:0 1px 0 5px;
+	height:26px;
+}
+/* Text area  Style
+=================================================================================================================================================================*/
+textarea {
+	height:105px;
+	width:80%;
+	border:1px solid #9f9f9f;
+	padding:5px 2px 5px 10px!important;
+	font-size: 13px;
+	margin:0 0 5px 0;
+}
+/* Button  Style
+=================================================================================================================================================================*/
+
+
+span.btnlayout {
+	background:url(../../images/admin/input_bg/btn_01.gif) right top no-repeat;
+	border:0;
+	padding-right:10px;
+	display:block;
+	float:left
+}
+span.btnlayout input {
+	background:url(../../images/admin/input_bg/btn_01.gif) left top no-repeat;
+	border:0;
+	padding:0 10px 6px 15px;
+	font:600 16px "Segoe UI", "Myriad Pro", "Trebuchet MS", Tahoma;
+	color:#353535;
+	width:auto;
+	text-align:center;
+	cursor:pointer;
+	height:37px;
+	float:left;
+}
+span.btnlayout a {
+	background:url(../../images/admin/input_bg/btn_01.gif) left top no-repeat;
+	border:0;
+	padding:5px 10px 6px 15px;
+	font:600 16px "Segoe UI", "Myriad Pro", "Trebuchet MS", Tahoma;
+	color:#7F7F80;
+	width:auto;
+	text-align:center;
+	cursor:pointer;
+	height:32px;
+	display:inline-block;
+}
+span.btnlayout a:hover {
+	text-decoration:none;
+}
+span.btnlayout01 {
+	background:url(../../images/admin/input_bg/btn_03.gif) right top no-repeat;
+	border:0;
+	padding-right:10px;
+	display:block;
+	float:left
+}
+span.btnlayout01 input {
+	background:url(../../images/admin/input_bg/btn_03.gif) left top no-repeat;
+	border:0;
+	padding:0 20px 6px 32px;
+	font:600 16px "Segoe UI", "Myriad Pro", "Trebuchet MS", Tahoma;
+	color:#353535;
+	width:auto;
+	text-align:center;
+	cursor:pointer;
+	height:37px
+}
+input.button06 {
+	background:url(../../images/admin/input_bg/btn_06.gif) left top repeat-x;
+	border:#c6c4c4 1px solid;
+	padding:0 5px;
+	font:600 11px Tahoma, Geneva, sans-serif;
+	color:#353535;
+	text-align:center;
+	cursor:pointer;
+	height:20px;
+	padding-bottom:3px;
+}
+a.button06 {
+	background:url(../../images/admin/input_bg/btn_06.gif) left top repeat-x;
+	border:#c6c4c4 1px solid;
+	padding:2px 5px 2px;
+	font:600 11px Tahoma, Geneva, sans-serif;
+	color:#353535;
+	text-align:center;
+	cursor:pointer;
+	height:20px;
+}
+a.button06:hover {
+	text-decoration:none;
+}
+.inline_add{
+	background:#EAEAEA;
+}
+.form_listing .loading_img {
+	float:left;
+	vertical-align:middle;
+	margin:0 0 0 5px;
+}
+.cancel {
+	color:#7F7F80!important;
+}
+input.update_btn_table {
+	background:url(../../images/admin/input_bg/btn_04.gif) left top repeat-x #fff;
+	border:#b7b5ad 1px solid;
+	height:22px;
+	padding:0 10px 3px;margin-bottom:5px;
+	font:400 12px "segoe UI", "Trebuchet MS", Tahoma;
+	color:#000;
+	width:auto;
+	vertical-align:middle;
+	cursor:pointer;
+}
+a.update_btn_table {
+	background:url(../../images/admin/input_bg/btn_04.gif) left top repeat-x #fff;
+	border:#b7b5ad 1px solid;
+	height:15px;
+	padding:2px 10px 3px;
+	font:400 12px "segoe UI", "Trebuchet MS", Tahoma;
+	color:#000;
+	width:auto;
+	display:inline-block;
+	vertical-align:middle;
+	
+}
+.search_container .inner .btn_area input {
+	background:url(../../images/admin/input_bg/search_btn.gif) left top no-repeat;
+	padding:0 10px 0px 26px;
+	border:0;
+	cursor:pointer;
+	height:25px;
+	line-height:22px;
+	font:600 15px "segoe UI", "Trebuchet MS", Tahoma;
+	color:#444;
+}
+.search_container .inner .btn_area input.export {
+	background:url(../../images/admin/input_bg/export_btn.gif) left top no-repeat;
+	padding:0 10px 0 26px;
+	border:0;
+	font-size:14px;
+	line-height:13px;
+	font-weight:bold;
+	cursor:pointer;
+	height:25px;
+	line-height:20px;
+	color:#444;
+}
+.btnlayout-02 {
+	background:url(../../images/admin/input_bg/btn_08.gif) no-repeat right top !important;
+}
+.btnlayout-02 input {
+	background:url(../../images/admin/input_bg/btn_08.gif) no-repeat left top !important;
+	font-weight:600!important;
+	font-size:14px!important;
+}
+.button-02 span.btnlayout {
+	background:url(../../images/admin/input_bg/btn_01.gif) right top no-repeat;
+	border:0;
+	padding-right:20px;
+	display:block;
+	float:right
+}
+.button-02 input.button {
+	background:url(../../images/admin/input_bg/btn_01.gif) left top no-repeat;
+	border:0;
+	padding:0 0 6px 15px;
+	font:600 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#353535;
+	text-shadow: 0 0.01em 0.05em #000;
+	width:auto;
+	text-align:center;
+	cursor:pointer;
+	height:37px
+}
+.button-02 .btncolor input.button {
+	color:#7F7F80;
+}
+.updatebtn-01 {
+	margin:0 !important;
+	width:auto !important;
+}
+#show-btn {
+	display:none;
+	float:right;
+}
+#show-btn span.btnlayout {
+	background:url(../../images/admin/input_bg/btn_05.gif) right top no-repeat;
+	border:0;
+	padding-right:15px;
+	display:block;
+	float:right;
+	margin-left:4px;
+}
+#show-btn input.button {
+	background:url(../../images/admin/input_bg/btn_05.gif) left top no-repeat;
+	border:0;
+	padding:0 0 6px 15px;
+	font:600 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#353535;
+	text-shadow: 0 0.01em 0.05em #000;
+	width:auto;
+	text-align:center;
+	cursor:pointer;
+	height:27px
+}
+#show-btn span.btnlayout-01 {
+	background:url(../../images/admin/input_bg/btn_06.gif) right top no-repeat;
+}
+#show-btn .btnlayout-01 input.button {
+	background:url(../../images/admin/input_bg/btn_06.gif) left top no-repeat;
+}
+.search_container .inner .btn_area_01 input {
+	background:url(../../images/admin/input_bg/export_btn.gif) left top no-repeat!important;
+}
+.btn_search {
+	height:27px;
+	padding:0 10px 2px 22px;
+	line-height:16px;
+	font-size:13px;
+	color:#f5f5f5;
+	background:url(../../images/admin/input_bg/sear_container.gif) left -1px no-repeat #717171;
+	border:#585858 1px solid;
+	font-weight:700;
+	text-align:left;
+	cursor:pointer;
+	margin-bottom:5px;
+}
+* html .btn_search {
+	padding:0 0 0 23px;
+}
+* + html .btn_search {
+	padding:0 0 0 23px;
+}
+.title-block {
+	margin:0;
+	padding:12px 0 0;
+	text-align:center;
+}
+.add_button {
+	background:url(../../images/admin/input_bg/add_bg.gif) left top no-repeat;
+	width:64px;
+	height:27px;
+	padding-left:19px;
+	font:400 12px "segoe UI", "Trebuchet MS", Tahoma;
+	color:#000;
+	border:0;
+	text-align:left;
+}
+.add_conatiner .update_btn_table{height:27px;background-color:#f3f3f3;}
+/* Used for the Switch effect:
+======================================================================================================================================================= */
+p.field {
+	margin:0 0 10px;
+	height:30px;
+}
+/* Edited */
+.cb-enable, .cb-disable, .cb-enable span, .cb-disable span,.cb-middle,.cb-middle span{
+	background:url(../../images/admin/input_bg/switch.gif) repeat-x;
+	display: block;
+	float: left;
+}
+.cb-enable span, .cb-disable span {
+	display: block;
+	background-repeat: no-repeat;
+	font:400 15px "Segoe UI", "Myriad Pro", "Trebuchet MS", Tahoma;
+	height:26px;
+	padding:4px 10px 0;
+}
+.cb-enable span {
+	background-position: left -90px;
+	color:#999999;
+}
+.cb-disable span {
+	background-position: right -180px;
+	color:#999999;
+}
+.cb-disable.selected,.cb-middle {
+	background-position: 0 -30px;
+}
+.cb-disable.selected span {
+	background-position: right -210px;
+	color: #fff;
+}
+.cb-enable.selected {
+	background-position: 0 -30px;
+}
+.cb-enable.selected span {
+	background-position: left -120px;
+	color: #fff;
+}
+.switch label {
+	cursor: pointer;
+}
+a.date-img img {
+	margin:0px 0 0 7px;
+}
+.listing-02 li .image-block .box-01 A.btn-01 {
+	background:url(../../images/admin/button-01.png) no-repeat;
+	width:36px;
+	height:37px;
+	display:block;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+/* Image Uploader  Style
+=================================================================================================================================================================*/
+.fileuploader_field {
+	background:url(../../images/admin/input_bg/image_add_btm.gif) left bottom;
+	padding-bottom:5px;
+	width:168px;
+}
+.fileuploader {
+	background:url(../../images/admin/input_bg/image_add.gif) left top no-repeat;
+	width:156px;height:153px;
+	cursor:pointer;
+	padding:6px 6px 0;
+	overflow:hidden;
+}
+.fileuploader img {
+	border:1px solid #ccc;
+	margin-bottom:2px;
+}
+
+.fileuploader a {
+	color:#000!important;
+	text-decoration:underline;
+}
+.fileuploader .edit {
+	background:url(../../images/admin/input_bg/edit_icon.gif) left 3px no-repeat;
+	float:right;
+	display:block;
+	border:0;
+	cursor:pointer;
+	width:16px;
+	height:19px;
+}
+.fileuploader .delete {
+	background:url(../../images/admin/input_bg/delete_icon.gif) left 5px no-repeat;
+	float:right;
+	display:block;
+	cursor:pointer;
+	border:0;
+	width:16px;
+	height:19px;
+	margin-left:5px;
+}
+.fileuploader_field.icon {
+	background:none;
+	padding-bottom:0;
+	width:150px;height:30px;
+	overflow:hidden;
+}
+.fileuploader.icon {
+	background:url(../../images/admin/icon-uploader-top-bg.gif) left top no-repeat;
+	width:100px;height:30px;
+	cursor:pointer;
+	padding:0;
+	overflow:hidden;
+}
+.fileuploader.icon img {
+	margin:3px 3px 5px 3px;
+	border:0;
+	float:left
+}
+#imageEditboxlanguageImage{
+	float:left;
+	width:35px;
+}
+.fileuploader.icon .edit {
+	background:url(../../images/admin/icon-edit.gif) left 1px no-repeat;
+	float:right;
+	display:block;
+	border:0;
+	cursor:pointer;
+	width:16px;
+	height:18px;
+}
+.fileuploader.icon .delete {
+	background:url(../../images/admin/icon-delete.gif) left 4px no-repeat;
+	float:right;
+	display:block;
+	cursor:pointer;
+	border:0;
+	width:11px;
+	height:16px;
+	margin-left:2px;
+}
+/* Layout Change  Style
+=================================================================================================================================================================*/
+.layout li {
+	float:left;
+	text-align:center;
+	padding:0 5px 0 0;
+}
+.layout li img {
+	padding:3px;
+}
+.layout li img.active {
+	padding:2px;
+	border:#c0c0c0 1px solid;
+}
+/* Multiple Selection
+=================================================================================================================================================================*/
+.multiple_selection2 {
+	position:relative;
+	background:#FEFEFE;
+	border:#9F9F9F 1px solid;
+	padding:2px 5px;
+	float:right;
+	font-size:14px;
+	font-weight:normal;
+	margin:0 0 0 8px;
+}
+.multiple_selection2 li {
+	padding:2px 0 3px;
+}
+.multiple_selection2 li a {
+	display:block;
+	padding-right:20px;
+	color:#000;
+	font-weight:400;
+	background:url(../../images/admin/arrow.gif) right 7px no-repeat;
+}
+.multiple_selection2 li a:hover {
+	text-decoration:none;
+}
+.multiple_selection2 li ul {
+	background:#FEFEFE;
+	border:#9F9F9F 1px solid;
+	border-top:0;
+	position:absolute;
+	left:-1px;
+	top:22px;
+	width:100%;
+}
+.multiple_selection2 li ul li input {
+	vertical-align:middle;
+}
+.multiple_selection2 li ul li {
+	border-bottom:#E6E5E5 1px solid;
+	background:none;
+	padding:0;
+	font-size:12px;
+}
+.multiple_selection2 li ul li a {
+	color:#333;
+	padding:5px 5px 5px 10px;
+}
+.multiple_selection2 li ul li a:hover {
+	background:#DEDEDE;
+}
+.multiple_selection2 li ul li input {
+	width:auto;
+	border:1px;
+	
+}
+
+
+.multiple-textfield{
+	/*background:#FEFEFE;*/
+	background:url(../../images/admin/input_bg/search_txt_bx_rep_bg.gif) left top repeat-x #fff;
+	border:#9F9F9F 1px solid;
+	padding:5px;
+	font-size:13px;
+	margin-bottom:5px;
+}
+.reward_divtable .textbox{width: 459px !important;}
+.pArea{width: 452px;
+height: 99px;}
+
+.reward_divtable td,.reward_divtable {border:0 !important;position:relative;}
+.selectVideo,{position:relative;
+width: 151px;
+height: 183px;
+overflow: hidden;}
+.selectImg{position:relative;
+width: 98px;
+height: 183px;
+overflow: hidden;}

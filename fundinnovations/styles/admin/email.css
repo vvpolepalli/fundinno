@@ -1,0 +1,31 @@
+/************START*****START********START*************EMAIL TEMPLATES      EMAIL TEMPLATES     EMAIL TEMPLATES   ***********START*********START**********/
+.listing_emailtemp_deatils {
+	border-top:#e3e3e3 1px solid;
+}
+.listing_emailtemp_deatils li {
+	border-bottom:#e3e3e3 1px solid;
+	padding:10px 20px;
+	font-size:12px;
+	color:#666;
+}
+.listing_emailtemp_deatils li.shade01 {
+	background:#f5f5f5;
+}
+.header_listing {
+	width:60%;
+	padding-bottom:20px;
+}
+.header_listing li {
+	float:left;
+	font:400 12px "Segoe UI", "Myriad Pro", "Trebuchet MS", Tahoma;
+	color:#666;
+	padding-bottom:10px;
+}
+.header_listing li.first-one {
+	width:20%;
+}
+.header_listing li.last-one {
+	width:70%;
+	font-size:14px;
+	color:#333;
+}

@@ -1,0 +1,1 @@
+<input type="text" style="" class="textbox" id="img_caption_pop" name="img_caption_pop" value="{$img_caption}">

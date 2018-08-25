@@ -1,0 +1,114 @@
+@charset "utf-8";
+/*@import url("form_styles.css");*/
+
+
+
+
+/* Global Css
+=================================================================================================================================================================*/
+body, html, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote{margin:0; padding:0}
+ul li{list-style:none}
+
+h1{	display: block;
+	height: 86px;
+	width: 237px;
+	margin: 20px auto 0;
+	text-decoration: none;
+	color: white;
+	line-height: 35px;
+	background: url(../../images/logo.png) no-repeat;
+	text-indent: -9999px;
+}
+h1 em{color:#cecece;}
+
+body{background:#fff; font:normal 14px/18px  "myriad Pro", "Segoe UI", "Trebuchet MS", Arial}
+/* Common Styles 
+=================================================================================================================================================================*/
+.clear{clear:both}
+.fixing_left{float:left;}
+.fixing_right{float:right;}
+
+
+/* Main Layout Styles 
+=================================================================================================================================================================*/
+.outer_container{background:#fff}
+
+/* Content Container Section 
+=================================================================================================================================================================*/
+.container_div{width:469px; margin:0 auto;}
+.content_container{width:469px;background:#fff;padding:78px 0 10px;}
+.content_container_inner{background:url(../images/loginsection/login_box_bg.png) left top no-repeat;padding-top:5px;}
+.content_container_content{background: #fff;padding:0 6px;}
+.content_container_content .filling{background: #fff;
+padding: 30px 20px 20px 58px;
+border: 1px solid #dedede;
+border-radius: 10px;}
+.content_container_content .filling a{color:#3f74aa;padding-left:10px;text-decoration:underline;line-height:28px; }
+.content_container_content .filling a:hover{color:#3f74aa;text-decoration:none;}
+.content_container_content .filling .text_note{padding-left:60px;}
+.text_note{font-size:11px;padding-left:6px;line-height:16px;}
+.text_note a{font-size:11px;padding-left:0!important;}
+.loginLogo{
+	background:url(../../images/admin/login_logo.png) center bottom no-repeat;
+	text-indent:-99999px;
+	margin-bottom: 30px;
+}
+.content_container_content .leftside01{
+	float: left;
+    padding: 4px 10px 0 0;
+    width: 23%;
+	text-align:right;
+}
+.content_container_content .rightside01{
+	float:left;
+}
+
+.content_container_content .textbox{
+	-webkit-box-shadow: inset 0px 0px 3px 0px #d6d6d6;
+-moz-box-shadow: inset 0px 0px 3px 0px #d6d6d6;
+-o-box-shadow: inset 0px 0px 3px 0px #d6d6d6;
+box-shadow: inset 0px 0px 3px 0px #d6d6d6;
+border: 1px solid #c9c9c9;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+color: #666;
+font: 13px Arial, sans-serif, "Myriad Pro";
+width: 473px;
+height: 20px;
+padding: 5px;
+	width: 202px;
+}
+.content_container_content li{
+	padding:4px 0;
+}
+.content_container_content .rightside01 .btnlayout01 input{
+	 background: url("../../images/admin/input_bg/btn_01.gif") no-repeat scroll left top transparent;
+    border: 0 none;
+    color: #353535;
+    cursor: pointer;
+    float: left;
+    font: 600 16px "Segoe UI","Myriad Pro","Trebuchet MS",Tahoma;
+    height: 37px;
+    padding: 0 10px 6px 15px;
+    text-align: center;
+    width: auto;
+}
+.content_container_content .rightside01 .btnlayout01{
+	background: url("../../images/admin/input_bg/btn_01.gif") no-repeat scroll right top transparent;
+    border: 0 none;
+    display: block;
+    float: left;
+    padding-right: 10px;
+}
+.error{
+	color:#F00;
+	font-weight:bold;
+	text-align:center;
+}
+.logout{
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+}

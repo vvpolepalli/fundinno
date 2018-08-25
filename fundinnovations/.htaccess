@@ -1,0 +1,66 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^application.*
+RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/ [R=301,L]
+#RewriteRule .* index.php/$0 [PT,L]
+
+Header unset Pragma
+FileETag None
+Header unset ETag
+
+<IfModule mod_deflate.c>
+    AddOutPutFilterByType DEFLATE text/html text/plain text/xml text/css text/js text/javascript application/javascript
+    <IfModule mod_setenvif.c>
+        # Netscape 4.x has some problems...
+        BrowserMatch ^Mozilla/4 gzip-only-text/html
+
+        # Netscape 4.06-4.08 have some more problems
+        BrowserMatch ^Mozilla/4\.0[678] no-gzip
+
+        # MSIE masquerades as Netscape, but it is fine
+        # BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+
+        # NOTE: Due to a bug in mod_setenvif up to Apache 2.0.48
+        # the above regex won't work. You can use the following
+        # workaround to get the desired effect:
+        BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+
+        # Don't compress images
+        SetEnvIfNoCase Request_URI .(?:gif|jpe?g|png)$ no-gzip dont-vary
+    </IfModule>
+
+    <IfModule mod_headers.c>
+        # Make sure proxies don't deliver the wrong content
+        Header append Vary User-Agent env=!dont-vary
+    </IfModule>
+</IfModule>
+
+ExpiresActive On
+ExpiresDefault A0
+
+# 1 WEEK
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+ExpiresDefault A604800
+</FilesMatch>
+
+# 3 HOUR
+<FilesMatch "\.(txt|xml|js|ico|css)$">
+ExpiresDefault A604800
+</FilesMatch>
+
+# 1 WEEK
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+# 3 HOUR
+<FilesMatch "\.(txt|xml|js|css)$">
+Header set Cache-Control "max-age=604800"
+</FilesMatch>
+
+

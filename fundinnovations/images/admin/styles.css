@@ -1,0 +1,21 @@
+.bottom-right-border{
+border-bottom:1px #CFD5D6  solid;
+border-right:1px #CFD5D6  solid;
+}
+.right-border{
+border-right:1px #CFD5D6  solid;
+}
+.bottom-border{
+border-bottom:1px #CFD5D6  solid;
+}
+.clear{clear:both}
+.fixing_left{float:left;}
+
+/* Image Uploader  Style
+=================================================================================================================================================================*/
+.fileuploader_field{background:url(../images/input_bg/image_add_btm.gif) left bottom;padding-bottom:5px;width:168px;}
+.fileuploader{background:url(../images/input_bg/image_add.gif) left top no-repeat;width:156px;cursor:pointer;padding:6px;}
+.fileuploader img{border:1px solid #ccc;width:154px;height:153px;margin-bottom:2px;}
+.fileuploader a{color:#000!important;text-decoration:underline;}
+.fileuploader .edit{background:url(../images/input_bg/edit_icon.gif) left 3px no-repeat;float:right;display:block;border:0;cursor:pointer;width:16px;height:19px;}
+.fileuploader .delete{background:url(../images/input_bg/delete_icon.gif) left 5px no-repeat;float:right;display:block;cursor:pointer;border:0;width:16px;height:19px;margin-left:5px;}
